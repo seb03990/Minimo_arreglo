@@ -55,4 +55,4 @@ jobs:
             aws-region: us-east-1
       
       - name: Subir archivos al bucket
-        run: asw s3 cp minimo.py s3://minimo-arreglo
+        run: aws s3 cp minimo.py s3://minimo-arreglo
