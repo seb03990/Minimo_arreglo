@@ -46,5 +46,5 @@ jobs:
           pytest
       
       - name: Subir archivo
-        run: aws s3 cp minimo.py s3://minimo-arreglo/minimo.py
+        run: aws s3 cp minimo.py s3://minimo-arreglo
       
